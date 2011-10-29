@@ -1,0 +1,177 @@
+@import url('main.css');
+
+#main {
+	padding:10px 30px 10px 30px;
+	top:40px; 
+	left:-173px; 
+	width:613px;
+	height:225px;
+	
+	position:relative; 
+	margin:0px auto;
+}
+
+#main .roundedDropShadow {
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 5px 5px 5px black;
+	-webkit-box-shadow: 5px 5px 5px black;
+	box-shadow: 5px 5px 5px black;
+	background-color:#FFF;
+	/*background-color: #7F8FA6;*/
+}
+
+#main .item_info {
+	padding-top:7px;
+	border-top:1px solid #eee;
+	text-align:right;
+	font-size:9px;
+	letter-spacing:0;
+	color:#999;
+	font-family:"Lucida Grande","Lucida Sans Unicode",Verdana;
+}
+
+#main {
+	font-family:Verdana;
+	font-size:11px;
+	line-height:18px;
+	color:#006;
+}
+
+#main p,
+#main li,
+#main div.comment {
+	font-family:Verdana;
+	font-size:11px;
+	line-height:18px;
+	color:#006;
+}
+
+#main p {
+	margin-top:12px;
+	margin-bottom:12px;
+}
+
+#main ul.api li {
+	font-family:"Trebuchet MS";
+	color:#333;
+	font-size:16px;
+}
+
+#main p.date {
+	border-top:1px solid #ccc;
+	font-size:9px;
+	color:#999;
+	text-align:right;
+}
+
+#main .right {
+	float:right;
+	margin-left:10px;
+}
+
+#main .left {
+	float:left;
+	margin-right:10px;
+}
+
+#main ul.api {
+	list-style:none;
+	padding-left:0;
+}
+
+#main ul.api li {
+	font-size:13px;
+}
+
+#main .api li ul li {
+	font-family:Courier;
+	font-size:12px;
+}
+
+#main .api span.visibility {
+	color:#881350;
+}
+
+#main .api span.name {
+	color:#003369;
+}
+
+#main .api span.variable {
+	color:#825900;
+}
+
+#main .api span.return {
+	color:#666666;
+}
+
+#main pre.highlighted {
+	margin:0 -30px 5px -30px;
+	padding:20px 30px 20px 30px;
+	background-color:#000;
+	color:#fff;
+	font-size:12px;
+	overflow:auto;
+	width:740px;
+}
+
+#main code,
+#main .dp-highlighter li {
+	font-weight:normal;
+	font-family:"bitstream vera sans mono",monaco,"lucida console","courier new",courier,serif;
+	color:#fff;
+	font-size:12px;
+}
+
+#main .dp-highlighter ol {
+	margin:0;
+	padding:0;
+}
+
+#main .dp-highlighter ol,
+#main .dp-highlighter ol li {
+	list-style:none;
+}
+
+#main .dp-highlighter div.comment {
+	font-family:inherit;
+}
+
+/* Subsection Tabs
+--------------------*/
+#main ul.subsection_tabs {
+	list-style:none;
+	margin:0 0 5px 0;
+	padding:0;
+	clear:both;
+	border-bottom:1px solid #ccc;
+	height:20px;
+	clear:both;
+}
+
+#main ul.subsection_tabs li.tab {
+	float:left;
+	margin-right:7px;
+	text-align:center;
+}
+
+#main ul.subsection_tabs li.tab a {
+	display:block;
+	height:20px;
+	padding:0 6px 0 6px;
+	background-color:#fff;
+	color:#666;
+	width:80px;
+}
+
+#main ul.subsection_tabs li.tab a:hover {
+	color:#666;
+}
+
+#main ul.subsection_tabs li.tab a.active {
+	background-color:#ddd;
+}
+
+#main ul.subsection_tabs li.source_code {
+	float:right;
+}

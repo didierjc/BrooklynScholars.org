@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+
+#side_main {
+	background-image:url(../images/side.png); 
+	background-repeat:repeat-y; 
+	background-position:top left; 
+	padding:5px 15px; 
+	left:215px; 
+	top:-440px; 
+	width:50px;
+	
+	position:relative; 
+	margin:0px auto;
+}
+
+.spotlight{
+	font-family:Verdana;
+	font-size:16px;
+	line-height:18px;
+	color:#006;
+	position:relative; 
+	top:-10px; 
+	left:195px;
+	width:90px; 
+	text-align:right
+}
+
+.line{
+	border-bottom: 1px solid #006; 
+	padding:0px;
+	width:295px;
+	position:relative;
+	top:-5px;
+}
+
+.spotlight_arrow{
+	position:relative; 
+	top:10px; 
+	left:0px;
+}
+
+.highlightLink{
+	text-align:right; 
+	width:290px; 
+	background-color:#E3E7EC; 
+	padding-top:5px; 
+	padding-bottom:5px; 
+	padding-right:5px;
+	font-family:Verdana;
+	font-size:11px;
+	line-height:18px;
+	color:#006;
+	text-decoration:none;
+	margin-bottom:3px;
+}

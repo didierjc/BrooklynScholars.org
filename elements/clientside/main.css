@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:50px 0px; 
+	padding:0px;
+	text-align:center;
+}
+
+.text{
+	font-family:Verdana;
+	font-size:11px;
+	line-height:18px;
+	color:#006;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+.container {
+	width: 970px;
+	margin:0px auto;
+	text-align:left;
+}
+
+.container .swf {
+	position:relative;
+	top:-223px;
+}
+
+.roundedDropShadow {
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 5px 5px 5px black;
+	-webkit-box-shadow: 5px 5px 5px black;
+	box-shadow: 5px 5px 5px black;
+	background-color:#FFF;
+	/*background-color: #7F8FA6;*/
+	width: 650px;
+	position:absolute;
+	top:278px;
+}
+
+.date {
+	position:relative; 
+	left:500px; 
+	padding:5px; 
+	font-size:9px;;
+	width:115px;
+}
+
+.more {
+	position:relative; 
+	font-size:10px;
+	color:#006;
+	left:450px;
+}
+
+.paragraph {
+	margin-bottom:3px;
+}
+
+.highlight_container {
+	background-image:url(../images/bar.png); 
+	padding:5px 5px 0px 5px; 
+	margin:5px 5px 0px 5px; 
+	width:633px; 
+	height:210px; 
+	position:relative; 
+	left:-2px; 
+	top:-5px;
+}

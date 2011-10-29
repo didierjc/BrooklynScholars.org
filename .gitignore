@@ -1,0 +1,16 @@
+# Lines starting with '#' are considered comments.
+#http://help.github.com/ignore-files/
+
+# Ignore any file named foo.txt.
+#foo.txt
+# Ignore (generated) html files,
+#*.html
+# except foo.html which is maintained by hand.
+#!foo.html
+# Ignore objects and archives.
+#*.[oa]
+
+old/
+test/
+misc/
+*.rar
